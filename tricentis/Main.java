@@ -152,6 +152,6 @@ public class Main {
 
 	@AfterTest(alwaysRun = true)
 	public void after() {
-		driver.close();
+		driver.quit();
 	}
 }
